@@ -5,5 +5,7 @@ public class Main {
         System.out.println(doubleChar.doubleChar("Hello"));
 
         System.out.println(countHi.countHi("hi yohi"));
+
+        System.out.println(catDog.catDog("dog & dog"));
     }
 }
