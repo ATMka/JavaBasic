@@ -1,6 +1,6 @@
 package String2;
 
-public class countHi {
+public class CountHi {
     public static int countHi(String str) {
         int i = 0;
         int result = 0;

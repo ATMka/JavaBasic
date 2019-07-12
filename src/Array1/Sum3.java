@@ -1,11 +1,14 @@
 package Array1;
 
-public class sum3 {
+public class Sum3 {
     public static int sum3(int[] nums) {
         int sum=0;
-        for (int i=0; i < nums.length;i++){
+
+        for (int i:nums
+             ) {
             sum += nums[i];
         }
+
         return sum;
     }
 }
