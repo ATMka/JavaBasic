@@ -7,8 +7,8 @@ public class CountYZ {
             if (!Character.isLetter(str.charAt(i + 1)) && (str.toLowerCase().charAt(i) == 'y' || str.toLowerCase().charAt(i) == 'z')) {
                 result++;
             }
-        }// пишем } else if
-        if (str.toLowerCase().charAt(str.length() - 1) == 'y' || str.toLowerCase().charAt(str.length() - 1) == 'z') { // можно объединить в один if
+        }
+        if (str.toLowerCase().charAt(str.length() - 1) == 'y' || str.toLowerCase().charAt(str.length() - 1) == 'z') {
             result++;
         }
         return result;
