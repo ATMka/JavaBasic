@@ -6,7 +6,8 @@ public class CountYZ {
        int result = 0;
 
        for(String words : str.split(" ")){
-           if (Character.isLetter(words.charAt(words.length()-1)) && (words.toLowerCase().charAt(words.length()-1) == 'y' || words.toLowerCase().charAt(words.length()-1) == 'z')) {
+           if (Character.isLetter(words.charAt(words.length()-1)) &&
+                   (words.toLowerCase().charAt(words.length()-1) == 'y' || words.toLowerCase().charAt(words.length()-1) == 'z')) {
                result++;
            }
             }
